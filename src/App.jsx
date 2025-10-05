@@ -8,10 +8,13 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/landing-page-intellexia">
       <div className="App">
+        <a href="#main-content" className="skip-link">
+          Salta al contenuto principale
+        </a>
         <Header />
-        <main>
+        <main id="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/lawyer/:id" element={<LawyerDetail />} />
