@@ -37,7 +37,7 @@ const Team = () => {
 
   return (
     <section id="team" className="team section">
-      <div className="container">
+      <div className="container-full">
         <motion.div 
           ref={ref}
           className="team__content"

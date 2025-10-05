@@ -34,7 +34,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
-      <div className="container">
+      <div className="container-full">
         <motion.div 
           className="hero__content"
           variants={containerVariants}

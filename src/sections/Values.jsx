@@ -64,7 +64,7 @@ const Values = () => {
 
   return (
     <section id="about" className="values section">
-      <div className="container">
+      <div className="container-full">
         <motion.div 
           ref={ref}
           className="values__content"
