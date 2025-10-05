@@ -1,0 +1,55 @@
+[
+  {
+    "nome": "Avv. Francesco Saltelli",
+    "ruolo": "Partner",
+    "aree": ["Fallimentare", "Civile", "Commerciale", "Ristrutturazioni", "Procedure concorsuali", "NPL/Real Estate"],
+    "email": "francesco@intellexia.it",
+    "linkedin": "https://www.linkedin.com/in/francesco-saltelli",
+    "foto": "/assets/team/francesco.jpg",
+    "cvUrl": "/assets/cv/Francesco_Saltelli.pdf",
+    "bioBreve": "Avvocato a Roma dal 2013, abilitato presso le Giurisdizioni Superiori dal 2025, opera in diritto fallimentare, civile e commerciale con focus su ristrutturazioni e procedure concorsuali.",
+    "bioCompleta": "Laureato presso l'Università Roma Tre nel 2008, ha conseguito il diploma presso la Scuola di Specializzazione per le Professioni Legali nel 2010. Iscritto all'Albo degli Avvocati di Roma dal 2013 e abilitato presso le Giurisdizioni Superiori dal 2025. Specializzato in diritto fallimentare, civile e commerciale, con particolare focus su ristrutturazioni aziendali e procedure concorsuali. Svolge attività giudiziale, stragiudiziale e di consulenza, occupandosi di piani attestati, accordi di ristrutturazione, assistenza a investitori su NPL, real estate e contenziosi complessi. Ha maturato significativa esperienza in incarichi per procedure fallimentari e gestione di crisi aziendali."
+  },
+  {
+    "nome": "Avv. Vanessa Solimeno",
+    "ruolo": "Partner",
+    "aree": ["Banking", "Finanza strutturata", "Cartolarizzazioni", "Project Finance", "Minibond", "REOCO", "Invoice Trading", "Fin-tech", "Energie rinnovabili"],
+    "email": "vanessa@intellexia.it",
+    "linkedin": "https://www.linkedin.com/in/avv-vanessa-solimeno-4262246/",
+    "foto": "/assets/team/vanessa.jpg",
+    "cvUrl": "/assets/cv/Vanessa_Solimeno.pdf",
+    "pubblicazioni": [
+      "La garanzia del Fondo MCC sui basket-bond a favore di società veicolo di cartolarizzazione (2023)",
+      "Le Operazioni di Cartolarizzazione a valenza sociale (2021)",
+      "L'emissione dei basket bond quale nuova modalità alternativa di finanziamento delle PMI (2020)",
+      "Il diritto al rimborso delle ritenute d'acconto subite da una SPV di cartolarizzazione (2019)",
+      "L'acquisto di immobili nel contesto delle operazioni di cartolarizzazione (2019)",
+      "L'Esecuzione forzata nei confronti della pubblica amministrazione - Wolters Kluwer (2014)"
+    ],
+    "riconoscimenti": [
+      "Toga d'Onore - Distretto della Corte d'Appello di Napoli (2006)",
+      "PhD in Diritto Pubblico e Costituzionale - Università Federico II di Napoli (2007)",
+      "Relatrice a Convegni Notarili e Forum Legali specialistici",
+      "Autrice per DirittoBancario.it - Legal Advisor riconosciuta"
+    ],
+    "bioBreve": "Partner di PLC Studio Legale con PhD in Diritto Pubblico. Oltre 15 anni di esperienza in cartolarizzazioni e finanza strutturata presso Orrick Herrington & Sutcliffe. Autrice di pubblicazioni specialistiche e relatrice a convegni di settore.",
+    "bioCompleta": "Partner di PLC Studio Legale dal 2016, laureata con lode presso l'Università Federico II di Napoli (2002) e PhD in Diritto Pubblico e Costituzionale (2007). Ha maturato oltre 15 anni di esperienza nel settore delle cartolarizzazioni presso Orrick Herrington & Sutcliffe, dipartimento di finanza strutturata, assistendo le maggiori banche d'affari nazionali ed internazionali. Esperta in operazioni multi-tranche ai sensi della Legge 130/1999 e del Regolamento Europeo EU 2402/2017, cartolarizzazioni immobiliari, REOCO, operazioni a valenza sociale e gestione di portafogli NPL per investitori istituzionali europei (fondi inglesi, maltesi, norvegesi, polacchi). Ha curato operazioni di project financing nel settore delle energie rinnovabili, finanziamenti strutturati, minibond, basket bond, invoice trading e fin-tech. Specializzata nella ristrutturazione di operazioni pubbliche per evitare downgrading e nell'ottenimento di rating elevati per mantenere l'eligibility con la BCE. Autrice di numerose pubblicazioni su DirittoBancario.it e Wolters Kluwer, relatrice a convegni notarili e forum legali specialistici. La sua expertise comprende consulenza a PIF maltesi, intermediari finanziari ex art. 106 TUB, factor italiani e primarie banche di investimento in operazioni di cartolarizzazione complesse e innovative."
+  },
+  {
+    "nome": "Avv. Tommaso Ranchino",
+    "ruolo": "Managing Partner",
+    "aree": ["Bancario/Finanziario", "NPL-UTP", "Leasing", "Real Estate distressed", "Contenzioso", "AI Legal Tech", "Crisi d'impresa", "Procedure concorsuali"],
+    "email": "tommaso@intellexia.it",
+    "linkedin": "https://www.linkedin.com/in/tommaso-ranchino-10666748/",
+    "foto": "/imgs/TommasoIMG.jpeg",
+    "cvUrl": "/assets/cv/Tommaso_Ranchino.pdf",
+    "riconoscimenti": [
+      "Best Lawyer in Dispute Resolution - Milano Finanza Legal Ranking",
+      "Best Lawyer in Restructuring and Insolvency - Milano Finanza Legal Ranking", 
+      "Elite Lawyer in Investment Fund & Asset Management - Milano Finanza Legal Ranking",
+      "Asset Management Lawyer of the Year 2025 - Corporate International Global Awards"
+    ],
+    "bioBreve": "Managing Partner dello Studio Legale Ranchino (fondato nel 1977), specializzato in diritto bancario, finanziario e immobiliare. Riconosciuto da Milano Finanza come Best Lawyer e vincitore del Global Award 2025 come Asset Management Lawyer of the Year.",
+    "bioCompleta": "Managing Partner dello Studio Legale Ranchino dal 2014, punto di riferimento per banche, fondi e servicer nel mercato dei crediti deteriorati. Ha gestito oltre 10.000 posizioni NPL/UTP per un valore complessivo superiore a €15 miliardi di GBV, collaborando con primari istituti bancari nazionali, servicer internazionali e fondi di investimento europei. Pioniere nell'applicazione dell'intelligenza artificiale al contenzioso massivo attraverso collaborazione esclusiva con una Big Four per lo sviluppo di modelli automatizzati di gestione del contenzioso. La sua expertise spazia dalla due diligence legale alle strategie di enforcement immobiliare, dalle ristrutturazioni aziendali alla consulenza per Family Office su investimenti distressed. Consulente scientifico per riviste internazionali ESG e formatore specializzato per manager di banche e servicer. Iscritto all'Ordine degli Avvocati di Roma dal 2014, laureato presso l'Università La Sapienza nel 2010."
+  }
+]

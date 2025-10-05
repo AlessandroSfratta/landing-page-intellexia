@@ -1,0 +1,243 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: var(--ix-ink);
+  transition: var(--transition);
+  border-bottom: 1px solid transparent;
+}
+
+.header--scrolled {
+  background-color: rgba(11, 18, 32, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom-color: var(--ix-stone);
+  box-shadow: var(--shadow);
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  min-height: 80px;
+}
+
+/* Logo */
+.header__logo a {
+  text-decoration: none;
+  color: var(--ix-ivory);
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.logo-text {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5%;
+  line-height: 1;
+}
+
+.logo-subtitle {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.8;
+  letter-spacing: 0.025em;
+}
+
+/* Desktop Navigation */
+.header__nav {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--ix-ivory);
+  text-decoration: none;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: var(--transition);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--ix-champagne);
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  color: var(--ix-champagne);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* CTA Button */
+.header__cta {
+  display: none;
+}
+
+/* Mobile Menu Toggle */
+.header__mobile-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--ix-ivory);
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 24px;
+  height: 18px;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: currentColor;
+  transition: var(--transition);
+  transform-origin: center;
+}
+
+.header__mobile-toggle[aria-expanded="true"] .hamburger span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.header__mobile-toggle[aria-expanded="true"] .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+
+.header__mobile-toggle[aria-expanded="true"] .hamburger span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Menu */
+.header__mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--ix-ink);
+  border-top: 1px solid var(--ix-stone);
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+}
+
+.header__mobile-menu--open {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.mobile-nav-link {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--ix-ivory);
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  transition: var(--transition);
+  border-bottom: 1px solid rgba(231, 227, 220, 0.1);
+}
+
+.mobile-nav-link:hover {
+  background-color: rgba(203, 183, 158, 0.1);
+  color: var(--ix-champagne);
+}
+
+.mobile-cta {
+  padding: 1rem 1.5rem;
+}
+
+.mobile-cta .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px) {
+  .header__nav {
+    display: block;
+  }
+
+  .header__cta {
+    display: block;
+  }
+
+  .header__mobile-toggle {
+    display: none;
+  }
+
+  .header__mobile-menu {
+    display: none;
+  }
+
+  .header__content {
+    padding: 1.25rem 0;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+  .nav-list {
+    gap: 2.5rem;
+  }
+
+  .logo-text {
+    font-size: 1.75rem;
+  }
+
+  .logo-subtitle {
+    font-size: 0.875rem;
+  }
+}
+
+/* Focus States for Accessibility */
+.nav-link:focus-visible,
+.mobile-nav-link:focus-visible,
+.header__logo a:focus-visible {
+  outline: 2px solid var(--ix-champagne);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.header__mobile-toggle:focus-visible {
+  outline: 2px solid var(--ix-champagne);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
