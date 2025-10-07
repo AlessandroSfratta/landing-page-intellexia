@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Header.css';
-import logoImage from '../assets/logo/LogoGold (1).png';
+import logoImage from '/assets/logo/LogoGold (1).png';
 
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
               <div className="logo-container">
                 <img 
-                  src={logoImage}
+                        src={logoImage}
                   alt="Intellexia - Società tra Avvocati" 
                   className="logo-image"
                 />
