@@ -8,13 +8,14 @@
   --ix-stone: #E7E3DC;
   --ix-ink: #0B1220;
   --ix-champagne: #CBB79E;
+  --ix-rich-gold: #B49A67; /* NUOVA VARIABILE: un oro più intenso del CBB79E */
 
   /* Semantic Colors */
   --bg: var(--ix-ivory);
   --text: #1A232B;
   --primary: var(--ix-navy);
   --primary-contrast: #FFFFFF;
-  --accent: var(--ix-champagne);
+  --accent: var(--ix-rich-gold); /* Aggiornato per usare il nuovo colore */
   --border: var(--ix-stone);
   --surface: #FFFFFF;
 

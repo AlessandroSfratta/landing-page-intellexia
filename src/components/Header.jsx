@@ -29,8 +29,14 @@ const Header = () => {
           {/* Logo */}
           <div className="header__logo">
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-              <span className="logo-text">INTELLEXIA</span>
-              <span className="logo-subtitle">Società tra Avvocati</span>
+              <div className="logo-container">
+                <img 
+                  src="src/assets/logo/LogoGold (1).png" 
+                  alt="Intellexia - Società tra Avvocati" 
+                  className="logo-image"
+                />
+                <span className="logo-text">INTELLEXIA</span>
+              </div>
             </a>
           </div>
 

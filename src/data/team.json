@@ -5,8 +5,8 @@
     "aree": ["Fallimentare", "Civile", "Commerciale", "Ristrutturazioni", "Procedure concorsuali", "NPL/Real Estate"],
     "email": "francesco@intellexia.it",
     "linkedin": "https://www.linkedin.com/in/francesco-saltelli",
-    "foto": "/assets/team/francesco.jpg",
-    "cvUrl": "/assets/cv/Francesco_Saltelli.pdf",
+    "foto": "/landing-page-intellexia/assets/team/francesco.svg",
+    "cvUrl": "/landing-page-intellexia/assets/cv/Francesco_Saltelli.pdf",
     "bioBreve": "Avvocato a Roma dal 2013, abilitato presso le Giurisdizioni Superiori dal 2025, opera in diritto fallimentare, civile e commerciale con focus su ristrutturazioni e procedure concorsuali.",
     "bioCompleta": "Laureato presso l'Università Roma Tre nel 2008, ha conseguito il diploma presso la Scuola di Specializzazione per le Professioni Legali nel 2010. Iscritto all'Albo degli Avvocati di Roma dal 2013 e abilitato presso le Giurisdizioni Superiori dal 2025. Specializzato in diritto fallimentare, civile e commerciale, con particolare focus su ristrutturazioni aziendali e procedure concorsuali. Svolge attività giudiziale, stragiudiziale e di consulenza, occupandosi di piani attestati, accordi di ristrutturazione, assistenza a investitori su NPL, real estate e contenziosi complessi. Ha maturato significativa esperienza in incarichi per procedure fallimentari e gestione di crisi aziendali."
   },
@@ -16,8 +16,8 @@
     "aree": ["Banking", "Finanza strutturata", "Cartolarizzazioni", "Project Finance", "Minibond", "REOCO", "Invoice Trading", "Fin-tech", "Energie rinnovabili"],
     "email": "vanessa@intellexia.it",
     "linkedin": "https://www.linkedin.com/in/avv-vanessa-solimeno-4262246/",
-    "foto": "/assets/team/vanessa.jpg",
-    "cvUrl": "/assets/cv/Vanessa_Solimeno.pdf",
+    "foto": "/landing-page-intellexia/assets/team/vanessa.svg",
+    "cvUrl": "/landing-page-intellexia/assets/cv/Vanessa_Solimeno.pdf",
     "pubblicazioni": [
       "La garanzia del Fondo MCC sui basket-bond a favore di società veicolo di cartolarizzazione (2023)",
       "Le Operazioni di Cartolarizzazione a valenza sociale (2021)",
@@ -41,8 +41,8 @@
     "aree": ["Bancario/Finanziario", "NPL-UTP", "Leasing", "Real Estate distressed", "Contenzioso", "AI Legal Tech", "Crisi d'impresa", "Procedure concorsuali"],
     "email": "tommaso@intellexia.it",
     "linkedin": "https://www.linkedin.com/in/tommaso-ranchino-10666748/",
-    "foto": "/imgs/TommasoIMG.jpeg",
-    "cvUrl": "/assets/cv/Tommaso_Ranchino.pdf",
+    "foto": "/landing-page-intellexia/imgs/TommasoIMG.jpeg",
+    "cvUrl": "/landing-page-intellexia/assets/cv/Tommaso_Ranchino.pdf",
     "riconoscimenti": [
       "Best Lawyer in Dispute Resolution - Milano Finanza Legal Ranking",
       "Best Lawyer in Restructuring and Insolvency - Milano Finanza Legal Ranking", 
