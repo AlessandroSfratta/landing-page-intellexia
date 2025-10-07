@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Header.css';
+import logoImage from '../assets/logo/LogoGold (1).png';
+
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +33,7 @@ const Header = () => {
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
               <div className="logo-container">
                 <img 
-                  src="src/assets/logo/LogoGold (1).png" 
+                  src={logoImage}
                   alt="Intellexia - Società tra Avvocati" 
                   className="logo-image"
                 />
