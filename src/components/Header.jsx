@@ -31,7 +31,7 @@ const Header = () => {
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
               <div className="logo-container">
                 <img 
-                  src="/landing-intellaxie/src/assets/logo/LogoGold (1).png" 
+                  src="/assets/logo/LogoGold (1).png" 
                   alt="Intellexia - Società tra Avvocati" 
                   className="logo-image"
                 />
