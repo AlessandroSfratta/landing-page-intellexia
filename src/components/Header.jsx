@@ -32,6 +32,7 @@ const Header = () => {
               <div className="logo-container">
                 <img 
                   src="/assets/logo/LogoGold (1).png" 
+                  
                   alt="Intellexia - Società tra Avvocati" 
                   className="logo-image"
                 />
